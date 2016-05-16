@@ -1,0 +1,26 @@
+Terminology:
+
+Reel - Each individual "wheel" that rotates and stops.
+Reel Stop - The position the reel stops on.  The Reel Stop is the symbol in the middle of the visible area for each reel when it's stopped.
+Symbol - The visual representation of a reel stop.
+Credit - A generic unit of currency.
+Spin - Rotate/Scroll the Reel and lands on a random reel stop.
+
+
+Requirements:
+1) Project should be completed in Unity (latest free version is good), using C# for any scripting.
+2) Create three Reels, each with 22 reel stops, based on the ReelMapping.txt.  Use images in Symbols folder to represent Reel Stops visually.
+3) Store the current number of Credits (default: 0), and display on screen with text object.  Call this the "Credit Meter."
+4) Store the amount of Credits won on the last spin (default: 0), call this the "Win Meter."
+5) Create a button that will add 100 Credits to the Credit Meter.
+6) Create a button that will clear all Credits, setting the Credit Meter to 0.
+7) Create a button that will Spin the reels. Call this the "Spin Button"
+8) Disable the Spin Button if you have less than 10 credits on the Credit Meter.
+9) If Spin Button is Enabled and pressed, subtract 10 credits from the Credit Meter, set the Win Meter to 0, then Spin the Reels.
+10) Reels should spin for 3 seconds, and then proceed to their random reel stops.  Display the Reel Stop index on screen with a text object below each reel.
+11) After all 3 reels have stopped, check your Reel Stops versus the Pays.txt.  Add the appropriate Pay to the Credit Meter and Win Meter.  
+
+
+Note: Reels can be represented and Spin how you choose.  
+The idea is that when you Spin, the reels will rotate/scroll before finally coming to a stop.  
+Feel free to look on youtube for ideas.
