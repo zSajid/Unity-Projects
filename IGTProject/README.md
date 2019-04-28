@@ -4,3 +4,4 @@
 ![](https://github.com/zSajid/Unity-Projects/blob/master/IGTProject/Assets/Images/Playing.png)
 
 <p>One game played. </p>
+![](https://github.com/zSajid/Unity-Projects/blob/master/IGTProject/Assets/Images/Start.png)
